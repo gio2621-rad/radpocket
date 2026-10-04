@@ -1,0 +1,233 @@
+:root {
+    --bg-color: #121212;
+    --bg-card: #1e1e1e;
+    --text-main: #e0e0e0;
+    --text-muted: #a0a0a0;
+    --accent: #4fc3f7;
+    --border: #333333;
+}
+
+* { 
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 480px;
+    height: 60px;
+    background-color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    z-index: 1000;
+    border-bottom: 1px solid var(--border);
+}
+
+#btn-back {
+    background: none;
+    border: none;
+    color: var(--accent);
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 15px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#btn-back.hidden { 
+    display: none; 
+}
+
+.search-container {
+    flex-grow: 1;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #2c2c2c;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+#app-content {
+    width: 100%;
+    max-width: 480px;
+    margin-top: 60px;
+    padding: 20px;
+    min-height: calc(100vh - 60px);
+}
+
+.list-item {
+    background-color: var(--bg-card);
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    border-left: 5px solid var(--accent); /* Este color cambiará dinámicamente según el capítulo */
+    transition: background 0.2s;
+}
+
+.list-item:active { 
+    background-color: #2a2a2a; 
+}
+
+.detail-title {
+    font-size: 22px;
+    color: var(--accent);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.image-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    background-color: #1a1a1a; /* Fondo oscuro elegante para los espacios vacíos */
+    object-fit: contain;      /* <--- Esto evita que se recorte y muestra la foto entera */
+    aspect-ratio: 1;
+    border: 1px solid var(--border);
+}
+
+.image-box span {
+    margin-top: 8px;
+    font-size: 12px;
+    color: var(--text-muted);
+    text-align: center;
+}
+
+.info-block {
+    background-color: var(--bg-card);
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    border: 1px solid var(--border);
+}
+
+.info-block h3 {
+    font-size: 14px;
+    color: var(--accent);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.info-block p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.empty-state {
+    text-align: center;
+    color: var(--text-muted);
+    margin-top: 40px;
+}
+
+/* Marca de agua flotante sutil al fondo de la app */
+#app-content {
+    position: relative;
+}
+
+#app-content::after {
+    content: "RadPocket • Gio:)"; /* Aquí puedes poner tu nombre o el texto que quieras */
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.12); /* Muy transparente para que no moleste a la vista */
+    pointer-events: none; /* Permite hacer clic a través del texto sin bloquear nada */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    z-index: 10;
+}
+
+/* Adaptación para cuando una técnica requiera 3 imágenes */
+.image-container.three-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Hace que la tercera imagen ocupe todo el ancho inferior de manera centrada */
+.image-container.three-images .image-box:nth-child(3) {
+    grid-column: span 2;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+/* Efecto para indicar que se puede tocar */
+.image-box img {
+    cursor: pointer;
+}
+
+/* Visor de imágenes en pantalla completa */
+#visor-imagenes {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Fondo negro semitransparente */
+    z-index: 9999; /* Asegura que esté por encima de todo */
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+#visor-imagenes.activo {
+    display: flex;
+    opacity: 1;
+}
+
+#visor-imagenes img {
+    max-width: 95%;
+    max-height: 95%;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+/* Botón de cerrar tipo "X" (opcional, ya que al tocar el fondo se cerrará) */
+#visor-cerrar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
