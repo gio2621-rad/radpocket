@@ -6,7 +6,7 @@
     <title>Manual Bontrager</title>
     <link rel="icon" type="image/png" href="img/logo.png">
     <link rel="stylesheet" href="estilos.css">
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="./manifest.json">
     <meta name="theme-color" content="#121212">
 </head>
 <body>
@@ -23,13 +23,12 @@
 
     <script src="datos.js"></script>
     <script src="app.js"></script>
-    <script>
+   <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('sw.js');
+                navigator.serviceWorker.register('./sw.js');
             });
         }
     </script>
-    
 </body>
 </html>
