@@ -1,6 +1,6 @@
 {
-  "name": "Manual Bontrager",
-  "short_name": "Bontrager",
+  "name": "Radpocket",
+  "short_name": "Radpocket",
   "description": "Manual técnico offline de consulta radiológica",
   "start_url": "./index.html",
   "display": "standalone",
