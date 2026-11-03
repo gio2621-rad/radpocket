@@ -1340,6 +1340,492 @@ const tecnicas = [
         nota: "• Advertencia: no intentar rotar el brazo, si se sospecha fractura o luxación.<br>• Húmero proximal: véase Lateral transtorácica o escapular en Y, en el capítulo 5."
     },
 
+
+
+
+    /* PELVIS Y CINTURA PELVIANA) */
+    {
+    id: "pelvis-ap",
+    capitulo: "Región proximal del fémur y cintura pelviana",
+    nombre: "Proyección anteroposterior (AP) de pelvis (cadera bilateral)",
+    patologia: "• Fracturas, luxaciones, enfermedad degenerativa y lesiones óseas.",
+    factores_tecnicos: "• Tamaño del receptor de imagen (RI) - 35 x 43 cm (14 x 17 pulgadas) transversal.<br>• Parrilla antidifusora móvil o fija.<br>• Rango 80 ± 5 kVp o 90 ± 5 kVp.",
+    posicion_paciente: "• En posición supina con los brazos a los lados del cuerpo o las manos apoyadas sobre el tórax.<br>• Colocar una almohada debajo de la cabeza y un soporte debajo de las rodillas.",
+    posicion_region: "• Alinear el plano mediosagital del paciente con la línea media de la mesa y el rayo central (RC).<br>• Verificar que la pelvis no esté rotada; la distancia entre la mesa y ambas EIAS debe ser igual.<br>• Separar las piernas y los pies, y luego rotar hacia adentro de 15 a 20° los ejes longitudinales de los pies y las piernas.<br>• Puede ser necesario colocar una bolsa de arena entre los talones y una tela adhesiva para mantener la punta de los pies juntas o utilizar otras bolsas de arena contra los pies para mantener esta posición.",
+    rayo_central: "• Perpendicular al RI dirigido a una distancia media entre el nivel de las EIAS y la sínfisis pubiana. Aproximadamente 5 cm debajo del nivel de las EIAS.<br>• Centrar el chasis con el RC.<br>• Distancia fuente-receptor (DFR) mínima 100 cm.",
+    colimacion: "• Colimar hasta los bordes cutáneos laterales y hasta los bordes superior e inferior del RI.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/pelvis-ap-pos.png",
+    foto_rx: "img/pelvis-ap-rx.png",
+    nota: "• Advertencia: no intentar la rotación interna de las piernas, si se sospecha una fractura o luxación de la cadera. Obtener la radiografía con la pierna afectada en la posición en que se encuentre.<br>• Protección: Proteger las gónadas de todos los pacientes de sexo masculino. Sin embargo, la protección de los ovarios en las mujeres generalmente no es posible (sin enmascarar anatomía esencial, salvo que solo interese el área de las caderas).<br>• Nota: si se toma como una proyección de rutina de la cadera, el centrado debe estar unos 5 cm más abajo para abarcar una mayor parte de los fémures proximales."
+    },
+
+    {
+    id: "pelvis-ap-patas-de-rana",
+    capitulo: "Región proximal del fémur y cintura pelviana",
+    nombre: "Proyección AP bilateral en patas de rana (método de Cleaves modificado)",
+    patologia: "• Esta proyección es útil para observar la cadera de un paciente sin traumatismo o una displasia del desarrollo de la cadera, también conocida como luxación congénita de la cadera.",
+    factores_tecnicos: "• Tamaño del RI: 35 x 43 cm (14 x 17 pulgadas), transversal.<br>• Parrilla antidifusora móvil o fija.<br>• Rango 80 ± 5 kVp o 90 ± 5 kVp.<br>• Técnica y dosis a 80 kVp.",
+    posicion_paciente: "• En posición supina con las manos apoyadas sobre el tórax; colocar una almohada debajo de la cabeza.",
+    posicion_region: "• Alinear el paciente con la línea media de la mesa y el RI y con el RC.<br>• Verificar que la pelvis no esté rotada (igual distancia entre la mesa y ambas EIAS).<br>• Centrar el RI con el RC, en las cabezas femorales, con la parte superior del RI aproximadamente en la cresta ilíaca.<br>• Flexionar ambas rodillas aproximadamente 90°, como se muestra.<br>• Colocar las superficies plantares de los pies juntas y abducir ambos muslos hasta formar un ángulo de 40 a 45° con respecto a la vertical (véase nota 2). Asegurarse de que la abducción de ambos fémures sea la misma y que la pelvis no esté rotada.<br>• Colocar soportes debajo de las piernas para lograr la estabilización.",
+    rayo_central: "• Perpendicular al RI, dirigido a un punto a 7,5 cm por debajo de las EIAS (2,5 cm por encima de la sínfisis del pubis).<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar hasta los bordes del RI en los cuatro lados.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/pelvis-ap-patas-de-rana-pos.png",
+    foto_rx: "img/pelvis-ap-patas-de-rana-rx.png",
+    foto_extra:"img/pelvisdib.png",
+    nota: "• Advertencia: no intentar esta posición en un paciente con una enfermedad destructiva de la cadera o con posible fractura o luxación de la cadera.<br>• Protección: Proteger las gónadas de los hombres y las mujeres, sin enmascarar estructuras anatómicas esenciales (véase nota 1).<br>• Nota 1: esta proyección se toma, a menudo, para el seguimiento periódico de pacientes jóvenes, de modo que es importante colocar correctamente la protección gonadal en los hombres y mujeres asegurándose de no enmascarar las articulaciones de la cadera.<br>• Nota 2: un menor grado de abducción femoral, solo de 20 a 30° con respecto a la vertical, genera un escorzamiento mínimo de los cuellos femorales, pero esta posición determina un escorzamiento de todo el extremo proximal de los fémures, lo que puede no ser conveniente."
+    },
+
+    {
+    id: "cadera-ap-unilateral",
+    capitulo: "Región proximal del fémur y cintura pelviana",
+    nombre: "Proyección AP unilateral de cadera",
+    patologia: "• Es un examen posoperatorio o de seguimiento, para evaluar el acetábulo, la cabeza femoral, el cuello y el trocánter mayor del fémur, y el estado y la posición de cualquier implante ortopédico.",
+    factores_tecnicos: "• Tamaño del RI: 24 x 30 cm (10 x 12 pulgadas), longitudinal.<br>• Parrilla antidifusora móvil o fija.<br>• Rango 80 ± 5 kVp.<br>• Técnica y exposición.",
+    posicion_paciente: "• En posición supina, brazos a los costados del cuerpo o flexionados sobre el tórax.",
+    posicion_region: "• Localizar el cuello femoral y me alinearlo con el RC y la línea media de la mesa o el RI.<br>• Verificar que la pelvis no esté rotada (igual distancia entre la mesa y ambas EIAS).<br>• Rotar la pierna afectada hacia adentro de 15 a 20° (véase antes, Advertencia).",
+    rayo_central: "• Perpendicular al RI, dirigido de 2,5 a 5 cm distales del punto medio del cuello femoral (para abarcar todo el implante ortopédico de la cadera). El cuello del fémur puede localizarse aproximadamente de 3 a 5 cm por dentro y de 8 a 10 cm por debajo de la EIAS.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar en los cuatro lados hasta la región de interés.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/cadera-ap-unilateral-pos.png",
+    foto_rx: "img/cadera-ap-unilateral-rx.png",
+    nota: "• Advertencia: no intentar la rotación de las piernas, si se sospecha una fractura. Antes de obtener una AP unilateral de cadera en pacientes con posible traumatismo de cadera o pelvis, debe tomarse una proyección AP básica de la pelvis que incluya ambas caderas con fines comparativos.<br>• Protección: Colocar un protector sobre las gónadas y el área pelviana, asegurándose de no cubrir la cadera afectada."
+    },
+
+    {
+    id: "cadera-unilateral-patas-de-rana",
+    capitulo: "Región proximal del fémur y cintura pelviana",
+    nombre: "Proyección unilateral en patas de rana mediolateral de cadera y región proximal del fémur (Método Cleaves modificado)",
+    patologia: "• Imagen lateral para evaluar la articulación de la cadera y el extremo proximal del fémur en caso de cadera sin traumatismo.",
+    factores_tecnicos: "• Tamaño del RI: 24 x 30 cm (10 x 12 pulgadas), transversal.<br>• Parrilla antidifusora móvil o fija.<br>• Rango 80 ± 5 kVp.<br>• Técnica y dosis.",
+    posicion_paciente: "• En posición supina, colocar la cadera afectada para que esté alineada con el RC y la línea media de la mesa o el RI.",
+    posicion_region: "• Flexionar la rodilla y la cadera del lado afectado, como se muestra con la planta del pie apoyada contra la otra pierna, cerca de la rodilla, si es posible.<br>• Colocar el muslo en abducción a 45° con la vertical, lo que ubica el cuello femoral casi paralelo al RI (véase nota 1).<br>• Centrar el cuello femoral afectado con el RC y la línea media de la mesa y el RI. (El cuello femoral está de 7,5 a 10 cm, debajo de la EIAS.)",
+    rayo_central: "• Perpendicular al RI (véase nota 2) dirigido a la parte media del cuello femoral (centro del RI).<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar exactamente en los cuatro lados hasta el área de interés.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/cadera-unilateral-patas-de-rana-pos.png",
+    foto_rx: "img/cadera-unilateral-patas-de-rana-rx.png",
+    nota: "• Advertencia: no intentar esta posición en un paciente con una enfermedad destructiva de la cadera o una posible fractura o luxación de la cadera, ya que existe el riesgo de desplazar fragmentos óseos (véanse las proyecciones laterales para traumatismo).<br>• Protección: Proteger las gónadas sin cubrir la cadera afectada.<br>• Nota 1: el ángulo óptimo de abducción femoral para observar el cuello del fémur sin escorzamiento es de 20 a 30° con respecto a la vertical, en la mayoría de los casos. Esta posición sí genera cierto escorzamiento del área del fémur proximal, lo que puede ser inapropiado.<br>• Nota 2: una modificación de esta posición es el método de Lauenstein/Hickey, con el paciente en una posición inicial similar para, luego, rotar sobre el lado afectado hasta que el fémur esté en contacto con la mesa y paralelo al RI. Esta posición acorta la región del cuello femoral, pero puede mostrar bien la cabeza femoral y el acetábulo, si se logra una abducción suficiente de la pierna afectada (véase fig. 7-62 Recuadro)."
+    },
+    {
+    id: "articulaciones-sacroiliacas-axial-ap",
+    capitulo: "Región proximal del fémur y cintura pelviana",
+    nombre: "Proyección axial AP de articulaciones sacroilíacas",
+    patologia: "• Es útil para evaluar fracturas, luxaciones o subluxaciones de las articulaciones SI.",
+    factores_tecnicos: "• Tamaño del RI: 24 x 30 cm (10 x 12 pulgadas), longitudinal.<br>• Parrilla antidifusora móvil o fija.<br>• Rango 85 ± 5 kVp.<br>• Técnica y dosis.",
+    posicion_paciente: "• En posición supina; colocar una almohada debajo de la cabeza. Si las piernas están extendidas, colocar un soporte debajo de las rodillas para mayor comodidad.",
+    posicion_region: "• Alinear el plano mediosagital con el RC y la línea media de la mesa y el RI.<br>• Verificar que la pelvis no esté rotada (igual distancia entre la mesa y ambas EIAS).<br>• Centrar el RI con el RC proyectado.",
+    rayo_central: "• El RC debe estar angulado en dirección cefálica en un ángulo de 30 a 45° (en los hombres generalmente se requiere un ángulo de 30° y en las mujeres un ángulo de 35°, con un incremento de la curvatura lumbosacra).<br>• Dirigir el RC hacia un punto de la línea media situado a aproximadamente 5 cm debajo del nivel de la EIAS.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar hasta la región de interés, pero asegurarse de que los bordes laterales no excluyan las articulaciones SI.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/articulaciones-sacroiliacas-axial-ap-pos.png",
+    foto_rx: "img/articulaciones-sacroiliacas-axial-ap-rx.png",
+    nota: "• Protección: Colocar protección gonadal en los hombres. En las mujeres, la protección de los ovarios es imposible, porque el protector cubriría directamente el área de interés.<br>• Proyección axial PA alternativa: si el paciente no puede adoptar la posición supina, esta imagen se puede obtener como una proyección PA en posición prona, utilizando un ángulo caudal de 30° a 35°. El RC estará centrado en L4 o ligeramente por encima de la cresta ilíaca."
+    },
+
+    {
+    id: "pie-ap",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección AP de pie",
+    patologia: "• Localización y magnitud de las fracturas, y orientación de los fragmentos, alteraciones de los espacios articulares, derrames de los tejidos blandos y ubicación de cuerpos extraños opacos.",
+    factores_tecnicos: "• Tamaño del RI: 24 x 30 cm (10 x 12 pulgadas), orientación longitudinal.<br>• Dividir en mitades para AP y oblicua.<br>• Pantalla intensificadora de detalles sobre la mesa radiográfica.<br>• RI digital (utilizar enmascaramiento con plomo).<br>• Rango 60 ± 5 kVp o 70-75 kVp, con reducción de mAs para aumentar la latitud de exposición y obtener una densidad más uniforme de las falanges y los huesos del tarso.<br>• Técnica y dosis a 70 kVp.",
+    posicion_paciente: "• Obtener la radiografía en posición supina; colocar almohada debajo de la cabeza; flexionar la rodilla y colocar la superficie plantar (planta) del pie afectado, sobre el chasis (RI).",
+    posicion_region: "• Extender el pie (flexión plantar), pero mantener la superficie plantar apoyada firmemente en toda su extensión sobre el chasis (RI).<br>• Centrar y alinear el eje longitudinal del pie con el RC y el eje longitudinal de la parte del RI por exponer. (Si es necesario, utilizar bolsas de arena para impedir que el chasis se deslice en la mesa radiográfica.)<br>• Si se necesita inmovilización, flexionar también la rodilla contralateral y apoyarla sobre la rodilla de la pierna afectada.",
+    rayo_central: "• A 10° en dirección posterior (hacia el talón), perpendicular los metatarsianos (véase nota más adelante).<br>• Dirigir el RC a la base del tercer metatarsiano.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar hasta los bordes externos del pie en los cuatro lados.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/pie-ap-pos.png",
+    foto_rx: "img/pie-ap-rx.png",
+    nota: "• Protección: Colocar un protector de plomo sobre la región pelviana para proteger las gónadas.<br>• Nota: un arco elevado requiere un ángulo más cercano a 15° y un arco bajo uno más cercano a 5° para que el RC sea perpendicular a los metatarsianos. En el caso de un cuerpo extraño, el RC debe ser perpendicular al RI sin ningún ángulo."
+    },
+
+    {
+    id: "pie-ap-oblicua-medial",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección AP oblicua con rotación medial de pie",
+    patologia: "• Localización y magnitud de las fracturas y orientación de los fragmentos, alteraciones de los espacios articulares, derrames de los tejidos blandos y ubicación de cuerpos extraños opacos.",
+    factores_tecnicos: "• Tamaño del RI: 24 x 30 cm (10 x 12 pulgadas), longitudinal (dividir en mitades para AP y oblicua).<br>• Pantalla intensificadora de detalles sobre la mesa radiográfica.<br>• RI digital (utilizar enmascaramiento con plomo).<br>• Rango 60 ± 5 kVp o 70-75 kVp, con un aumento de la latitud de exposición y obtener una densidad más uniforme entre las falanges y los huesos del tarso.<br>• Técnica y dosis a 70 kVp.",
+    posicion_paciente: "• Obtener la radiografía en posición supina o sentada; flexionar la rodilla con la superficie plantar del pie apoyada sobre la mesa; rotar ligeramente el cuerpo en dirección contraria al lado por explorar.",
+    posicion_region: "• Centrar y alinear el eje longitudinal del pie con el RC y el eje longitudinal de la parte del RI por exponer.<br>• Rotar el pie en dirección medial para ubicar la superficie plantar de 30 a 40° con el plano del RI (véase Nota más adelante). El plano general del dorso del pie debe estar paralelo al RI y perpendicular al RC.<br>• Utilizar un soporte radiolúcido de 45° para prevenir movimientos. Si es necesario, utilizarse bolsas de arena para impedir que el chasis se deslice en la mesa radiográfica.",
+    rayo_central: "• Perpendicular al RI, dirigido a la base del tercer metatarsiano.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar hasta los bordes externos cutáneos en los cuatro lados.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/pie-ap-oblicua-medial-pos.png",
+    foto_rx: "img/pie-ap-oblicua-medial-rx.png",
+    nota: "• Protección: Colocar un protector de plomo sobre la región pelviana para proteger las gónadas.<br>• Nota: se puede solicitar una proyección lateral en rotación opcional para tener otra imagen de los tarsianos mediales y la base del primer metatarsiano.<br>• Nota: algunas referencias sugieren solo un ángulo de 30° oblicuo. En este texto, recomendamos más oblicuidad (de 40 a 45°), para el pie con un arco transversal promedio.<br>• Oblicua lateral opcional:<br>• Rotar el pie en dirección lateral 30° (menos oblicuidad necesaria, debido al arco natural del pie).<br>• Una oblicua lateral mostrará mejor el espacio entre el primer y segundo metatarsianos, y entre el primer y segundo cuneiformes. El hueso navicular también se observará bien en esta proyección."
+    },
+
+    {
+    id: "pie-lateral-mediolateral",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección lateral - mediolateral de pie",
+    patologia: "• Localización y magnitud del desplazamiento anterior o posterior de los fragmentos de la fractura, alteraciones articulares, derrames de los tejidos blandos y ubicación de cuerpos extraños opacos.",
+    factores_tecnicos: "• Tamaño del RI: 18 x 24 cm (8 x 10 pulgadas) para pies más pequeños, o 24 x 30 cm (10 x 12 pulgadas) para pies más grandes.<br>• Pantalla intensificadora de detalles sobre la mesa radiográfica.<br>• Rango 60 ± 5 kVp.<br>• Técnica y dosis.",
+    posicion_paciente: "• Obtener la radiografía en decúbito lateral; colocar una almohada debajo de la cabeza.",
+    posicion_region: "• Flexionar la rodilla del miembro afectado unos 45°; colocar la pierna contralateral detrás del miembro afectado para evitar la sobrerrotación de la pierna afectada.<br>• Si es posible, flexionar dorsalmente el pie, para ayudar a posicionar para una proyección lateral verdadera del pie y el tobillo.<br>• Colocar un soporte debajo de la pierna y la rodilla, para que la superficie plantar esté perpendicular al RI. No sobrerrotar el pie.<br>• Alinear el eje longitudinal del pie con el eje longitudinal del RI (salvo que se requiera una orientación diagonal para abarcar todo el pie).<br>• Centrar la región media de la base de los metatarsianos con el RC.",
+    rayo_central: "• Perpendicular al RI, dirigido al segundo cuneiforme (en la base del tercer metatarsiano).<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar hasta los bordes externos cutáneos del pie, para incluir de 2 a 3 cm proximales a la articulación de tobillo.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/pie-lateral-mediolateral-pos.png",
+    foto_rx: "img/pie-lateral-mediolateral-rx.png",
+    foto_extra:"img/piex.png",
+    nota: "• Protección: Colocar un protector de plomo sobre la región pelviana para proteger las gónadas.<br>• Proyección lateromedial alternativa: puede obtenerse una proyección lateromedial como lateral alternativa. Esta posición puede ser más incómoda o dolorosa para el paciente, pero puede ser más fácil para lograr una posición lateral verdadera."
+    },
+
+    {
+    id: "pie-ap-y-lateral-con-soporte-de-peso",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyecciones AP y lateral de pie con soporte de peso corporal",
+    patologia: "• Estas proyecciones son útiles para mostrar los huesos del pie, a fin de observar el estado de los arcos longitudinales cuando soportan todo el peso corporal.",
+    factores_tecnicos: "• Tamaño del RI: 18 x 24 cm (8 x 10 pulgadas) y 24 x 30 cm (10 x 12 pulgadas).<br>• Pantalla intensificadora de detalles.<br>• Rango 65 ± 5 kVp.",
+    posicion_paciente: "• AP: Obtener la radiografía de pie y todo el peso corporal distribuido uniformemente en ambos pies. Los pies deben estar rectos y paralelos entre sí.<br>• Lateral: Paciente en posición vertical erecta, con distribución uniforme del peso corporal.",
+    posicion_region: "• Lateral: Colocar al paciente de pie sobre bloques de madera ubicados en un banquito o el soporte del pie acoplado a la mesa. También puede utilizarse una caja de madera especial con una ranura para el chasis. (Es importante que la altura sea suficiente para que el tubo pueda colocarse en posición horizontal.)<br>• Proporcionar algún apoyo para que el paciente se mantenga firme.<br>• Sostener el chasis entre los pies, con el eje longitudinal del pie en la misma orientación que el eje longitudinal del RI.<br>• Reemplazar el chasis y rotar al paciente para obtener una proyección lateral del otro pie con fines comparativos.",
+    rayo_central: "• AP: RC 15° en dirección posterior hacia la parte media entre ambos pies en la base de los metatarsianos.<br>• Lateral: Dirigir el RC en un plano horizontal a la base del tercer metatarsiano.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar hasta los márgenes de los pies (pie).",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/pie-ap-y-lateral-con-soporte-de-peso-pos.png",
+    foto_rx: "img/pie-ap-y-lateral-con-soporte-de-peso-rx.png",
+    foto_extra:"img/piepeso.png",
+    nota: "• Protección: Proteger la región gonadal.<br>• Nota 1: en general, se obtiene proyecciones laterales de ambos pies con fines comparativos.<br>• Nota 2: algunas proyecciones básicas AP incluyen partes separadas de cada pie obtenidas con el RC centrado en cada pie."
+    },
+
+    {
+    id: "calcaneo-plantodorsal-axial",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección plantodorsal axial de calcáneo",
+    patologia: "• Enfermedades o fracturas con desplazamientos medial o lateral.",
+    factores_tecnicos: "• Tamaño del RI: 18 x 24 cm (8 x 10 pulgadas).<br>• División transversal del RI en mitades.<br>• Pantalla intensificadora de detalles sobre la mesa radiográfica.<br>• RI digital (utilizar enmascaramiento con plomo).<br>• Rango 70 ± 5 kVp.<br>• Aumentar 8-10 kVp para otras proyecciones del pie.<br>• Técnica y dosis.",
+    posicion_paciente: "• Obtener la radiografía en posición supina o sentada sobre la mesa con las piernas en extensión completa.",
+    posicion_region: "• Centrar y alinear la articulación del tobillo con el RC y la parte del RI por exponer.<br>• Flexionar dorsalmente el pie para que la superficie plantar esté casi perpendicular al RI.<br>• Pasar una cinta de gasa por debajo del pie y solicitar al paciente que ejerza una tracción suave, pero firme, y mantenga la superficie plantar tan perpendicular al RI como sea posible. (No mantener al paciente en esta posición más de lo necesario, ya que puede ser muy incómoda.)",
+    rayo_central: "• Dirigido a la base del tercer metatarsiano para salir en un nivel inmediatamente distal al maléolo lateral.<br>• 40° en dirección cefálica al eje longitudinal del pie (que estaría también a 40° con la vertical, si el eje longitudinal del pie está perpendicular al RI). (Véase nota más adelante.)<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar exactamente hasta el área del calcáneo.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/calcaneo-plantodorsal-axial-pos.png",
+    foto_rx: "img/calcaneo-plantodorsal-axial-rx.png",
+    nota: "• Protección: Colocar un protector de plomo sobre la región pelviana para proteger las gónadas.<br>• Nota: la angulación del RC debe ser aumentada, si el eje longitudinal de la superficie plantar del pie no está perpendicular al RI."
+    },
+
+    {
+    id: "calcaneo-lateral-mediolateral",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección lateral - mediolateral de calcáneo",
+    patologia: "• Lesiones óseas que comprometen el calcáneo, el astrágalo y la articulación astragalocalcánea, y la magnitud y la alineación de las fracturas.",
+    factores_tecnicos: "• Tamaño del RI: 18 x 24 cm (8 x 10 pulgadas).<br>• División transversal del RI en mitades.<br>• Pantalla intensificadora de detalles sobre la mesa radiográfica.<br>• RI digital (utilizar enmascaramiento con plomo).<br>• Rango 60 ± 5 kVp.<br>• Técnica y dosis.",
+    posicion_paciente: "• Obtener la radiografía en decúbito lateral con el lado afectado hacia abajo. Colocar una almohada debajo de la cabeza del paciente. Flexionar unos 45° la rodilla del miembro afectado; colocar la pierna contralateral detrás del miembro afectado.",
+    posicion_region: "• Centrar el calcáneo con el RC y la porción no bloqueada del RI con el eje longitudinal del pie paralelo al plano del RI.<br>• Colocar un soporte debajo de la rodilla y la pierna para que la superficie plantar esté perpendicular al RI.<br>• Colocar el tobillo y el pie en una posición lateral verdadera, que ubica al maléolo lateral 1 cm por detrás del maléolo medial.<br>• Flexionar dorsalmente el pie para que la superficie plantar forme un ángulo recto con la pierna.",
+    rayo_central: "• Perpendicular al RI, dirigido a un punto a 2,5 cm por debajo del maléolo medial.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar hasta los bordes cutáneos externos para incluir la articulación del tobillo en la parte proximal y todo el calcáneo.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/calcaneo-lateral-mediolateral-pos.png",
+    foto_rx: "img/calcaneo-lateral-mediolateral-rx.png",
+    nota: "• Protección: Colocar un protector de plomo sobre la región pelviana para proteger las gónadas."
+    },
+
+    {
+    id: "tobillo-ap-oblicua-45",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección AP oblicua (45°) de tobillo",
+    patologia: "• Posibles fracturas que comprometen la articulación tibioperonea distal, el extremo distal del peroné y el maléolo lateral, y la base del quinto metatarsiano.",
+    factores_tecnicos: "• Tamaño del RI: 24 x 30 cm (10 x 12 pulgadas).<br>• División transversal del RI en mitades.<br>• Pantalla intensificadora de detalles sobre la mesa radiográfica.<br>• RI digital (utilizar enmascaramiento con plomo).<br>• Rango 60 ± 5 kVp.<br>• Técnica y dosis.",
+    posicion_paciente: "• Obtener la radiografía en posición supina; colocar una almohada debajo de la cabeza; piernas completamente extendidas (la bolsa de arena u otro tipo de soporte debajo de la rodilla aumenta la comodidad del paciente).",
+    posicion_region: "• Centrar y alinear el tobillo con el RC y eje longitudinal de la parte del RI por exponer.<br>• Si la condición del paciente lo permite, flexionar dorsalmente el pie para que la superficie plantar forme un ángulo de 80 a 85° con el RI (de 10 a 15° con respecto a la vertical). Véase nota más adelante.<br>• Rotar la pierna y el pie 45° hacia adentro (similar a la proyección de la mortaja).",
+    rayo_central: "• Perpendicular al RI, dirigido un punto medio entre ambos maléolos.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar hasta los bordes cutáneos externos, para incluir la mitad proximal de los metatarsianos, y el extremo distal de la tibia y el peroné (véase nota más adelante).",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/tobillo-ap-oblicua-45-pos.png",
+    foto_rx: "img/tobillo-ap-oblicua-45-rx.png",
+    nota: "• Protección: Colocar un protector de plomo sobre la región pelviana para proteger las gónadas.<br>• Nota 1: si el pie está en extensión o flexión plantar, en un ángulo de más de 10 a 15° con respecto a la vertical, el calcáneo se superpondrá al maléolo lateral y enmascarará una región importante, en esta proyección oblicua a 45°.<br>• Nota 2: Esta posición permite observar la base del quinto metatarsiano (un sitio frecuente de fractura), que debe ser incluida en el campo de colimación."
+    },
+
+    {
+    id: "tobillo-lateral-mediolateral",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección lateral - mediolateral de tobillo",
+    patologia: "• Esta proyección es útil para evaluar fracturas, luxaciones y derrames articulares asociados con otras patologías de la articulación.",
+    factores_tecnicos: "• Tamaño del RI: 24 x 30 cm (10 x 12 pulgadas).<br>• División transversal del RI en mitades.<br>• Pantalla intensificadora de detalles sobre la mesa radiográfica.<br>• RI digital (utilizar enmascaramiento con plomo).<br>• Rango 60 ± 5 kVp.<br>• Técnica y dosis.",
+    posicion_paciente: "• Colocar al paciente en decúbito lateral, con el lado afectado hacia abajo, colocar una almohada debajo de la cabeza; flexionar la rodilla del miembro afectado unos 45°; ubicar la extremidad contralateral detrás del miembro afectado para evitar la sobrerrotación.",
+    posicion_region: "• Centrar y alinear la articulación del tobillo con el RC y el eje longitudinal de la porción del RI por exponer.<br>• Colocar un soporte debajo de la rodilla para que la pierna y el pie estén en una posición lateral verdadera.<br>• Flexionar dorsalmente el pie de manera que la superficie plantar forme un ángulo recto con la pierna o hasta donde el paciente lo tolere; no forzar. (Esto ayudará a mantener la posición lateral verdadera.)",
+    rayo_central: "• Perpendicular al RI, dirigido al maléolo medial.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar para incluir el extremo distal de la tibia y el peroné, y la parte media de los metatarsianos.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/tobillo-lateral-mediolateral-pos.png",
+    foto_rx: "img/tobillo-lateral-mediolateral-rx.png",
+    nota: "• Protección: Colocar un protector de plomo sobre la región pelviana.<br>• Proyección lateromedial alternativa (fig. 6-87): esta proyección lateral puede obtenerse en lugar de la proyección mediolateral más frecuente. (Esta posición es más incómoda para el paciente, pero puede ser más fácil para lograr una posición lateral verdadera.)"
+    },
+
+    {
+    id: "tobillo-ap-con-estres",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección AP con estrés de tobillo (inversión y eversión)",
+    patologia: "• Procesos patológicos asociados con la separación de la articulación del tobillo, secundaria a desgarro o ruptura de ligamentos.",
+    factores_tecnicos: "• Tamaño del RI: 24 x 30 cm (10 x 12 pulgadas).<br>• Dividir en mitades, transversal.<br>• Pantalla intensificadora de detalles sobre la mesa radiográfica.<br>• RI digital (utilizar enmascaramiento con plomo).<br>• Rango 60 ± 5 kVp.<br>• Técnica y dosis.",
+    posicion_paciente: "• Obtener la radiografía en posición supina; colocar una almohada debajo de la cabeza; pierna completamente extendida, con un soporte debajo de la rodilla.",
+    posicion_region: "• Centrar y alinear la articulación del tobillo con el RC y el eje longitudinal de la parte del RI por exponer.<br>• Flexionar dorsalmente el pie para que forme un ángulo recto o casi recto con la pierna.<br>• El estrés se aplica con la pierna y el tobillo en posición para una proyección AP verdadera sin rotación; la superficie plantar debe ser rotada en dirección medial para la inversión y en dirección lateral para la eversión (véase nota más adelante).",
+    rayo_central: "• Perpendicular al RI, dirigido a un punto medio entre ambos maléolos.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar hasta los bordes cutáneos laterales para incluir el extremo distal de la tibia y el peroné, y la mitad proximal de los metatarsianos.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/tobillo-ap-con-estres-pos.png",
+    foto_rx: "img/tobillo-ap-con-estres-rx.png",
+    nota: "• Advertencia: proceder con extrema cautela en el paciente lesionado.<br>• Protección: Colocar un protector sobre la región pelviana. Proporcionar guantes y un delantal de plomo a la persona que aplica el estrés, si las posiciones forzadas se mantienen manualmente durante las exposiciones.<br>• Nota: un médico u otro profesional de la salud debe sostener el pie y el tobillo en estas posiciones de estrés (o fijar el pie en posición con cintas o pesas). O ayudar a mantener esta posición con una cinta larga colocada alrededor del pie. Si esta maniobra es demasiado dolorosa para el paciente, el médico puede inyectar un agente anestésico local."
+    },
+
+    {
+    id: "pierna-ap",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección AP de pierna",
+    patologia: "• Fracturas, cuerpos extraños o lesiones óseas.",
+    factores_tecnicos: "• Tamaño del RI: 35 x 43 cm (14 x 17 pulgadas). División longitudinal o diagonal (lo que requiere una DFR mínima de 110 cm) del RI en mitades.<br>• Pantalla intensificadora de detalles sobre la mesa radiográfica.<br>• Rango 70 ± 5 kVp.<br>• Para aprovechar al máximo el efecto talón del ánodo, colocar la rodilla en el extremo catódico del haz de rayos.<br>• Técnica y dosis.",
+    posicion_paciente: "• Obtener la radiografía en posición supina; colocar una almohada debajo de la cabeza, pierna completamente extendida.",
+    posicion_region: "• Colocar la pelvis, la rodilla y la pierna en posición AP verdadera sin rotación.<br>• Si es necesario, colocar una bolsa de arena contra el pie para estabilizarlo; si es posible, flexionar dorsalmente el pie hasta formar un ángulo de 90° con la pierna.<br>• Asegurarse de que las articulaciones del tobillo y la rodilla estén a una distancia de 3 a 5 cm del RI (para que los rayos divergentes no se proyecten sobre ninguna de estas articulaciones del RI).<br>• En la mayoría de los adultos, la pierna debe ser colocada en diagonal (de ángulo a ángulo) sobre un RI de 35 x 43 cm, para asegurar que se incluyen ambas articulaciones. (Si es necesario, puede obtenerse otra placa con un RI más pequeño de la articulación más cercana a la lesión.)",
+    rayo_central: "• Perpendicular al RI, dirigido a un punto medio de la pierna.<br>• DFR mínima 100 cm; puede incrementarse a 110 a 120 cm para reducir la divergencia del haz de rayos y abarcar una mayor extensión de la pierna (aumentar el mAs proporcionalmente).",
+    colimacion: "• Colimar en ambos lados hasta los bordes cutáneos, con colimación completa en los extremos del RI, a fin de incluir las articulaciones de la rodilla y el tobillo.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/pierna-ap-pos.png",
+    foto_rx: "img/pierna-ap-rx.png",
+    nota: "• Protección: Colocar un protector de plomo sobre la región gonadal.<br>• Proyección de rutina alternativa para seguimiento: en algunos servicios de radiología, el protocolo para seguimiento de los huesos largos indica incluir solo la articulación más cercana a la lesión y colocar esta articulación; como mínimo, a 5 cm del borde del RI para reproducir mejor esta zona. Sin embargo, en un examen inicial, es especialmente importante incluir la porción proximal de la articulación tibioperonea cuando la lesión afecta el"
+    },
+
+    {
+    id: "pierna-lateral-mediolateral",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección lateral - mediolateral de pierna (tibia y peroné)",
+    patologia: "• Lesiones, cuerpos extraños, y la magnitud y la alineación de las fracturas.",
+    factores_tecnicos: "• Tamaño del RI: 35 x 43 cm (14 x 17 pulgadas) división longitudinal (o diagonal) (lo que requiere un DFR mínima de 110 cm del RI en mitades).<br>• Pantalla.<br>• Rango 70 ± 5 kVp.<br>• Para aprovechar al máximo el efecto talón del ánodo, colocar la rodilla en el extremo catódico del haz de rayos.<br>• Técnica y dosis.",
+    posicion_paciente: "• Obtener la radiografía en decúbito lateral, con el lado afectado hacia abajo; la pierna contralateral puede colocarse detrás del miembro afectado, con una almohada o bolsas de arena para apoyo.",
+    posicion_region: "• Flexionar la rodilla unos 45° y asegurarse de que la pierna está en una posición lateral verdadera. (El plano de la rótula debe ser perpendicular al RI.)<br>• Verificar que las articulaciones del tobillo y la rodilla estén a una distancia de 3 a 5 cm del RI para que los rayos divergentes no se proyecten sobre estas articulaciones.<br>• En la mayoría de los adultos, la pierna debe ser colocada en diagonal (de ángulo a ángulo de los bordes del RI) sobre un RI de 35 x 43 cm, para asegurar que se incluyen ambas articulaciones. (Si es necesario, puede obtenerse otra placa con un RI más pequeño de la articulación más cercana a la lesión.)",
+    rayo_central: "• Perpendicular al RI, dirigido a la mitad de la pierna.<br>• DFR mínima 100 cm; puede incrementarse a 110 o 120 cm, para reducir la divergencia del haz de rayos y abarcar una mayor extensión de la pierna (aumentar el mAs proporcionalmente).",
+    colimacion: "• Colimar en ambos lados hasta los bordes cutáneos, con colimación completa en los extremos para incluir las articulaciones de la rodilla y el tobillo.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/pierna-lateral-mediolateral-pos.png",
+    foto_rx: "img/pierna-lateral-mediolateral-rx.png",
+    nota: "• Protección: Colocar el protector sobre la región pelviana y gonadal.<br>• Proyección de rutina alternativa para seguimiento: en algunos servicios de radiología, el protocolo para seguimiento de los huesos largos indica incluir solo la articulación más cercana a la lesión y colocar esta articulación, como mínimo, a 5 cm del borde del RI para reproducir mejor esta zona. Sin embargo, en un examen inicial, es especialmente importante incluir la porción proximal de la articulación tibioperonea cuando la lesión afecta el tercio distal de la pierna, porque es frecuente una segunda fractura en esta región.<br>• Lateral a través de la mesa: si no se puede rotar al paciente, la radiografía puede obtenerse en dirección transversal con el chasis de canto entre las piernas. Colocar un soporte debajo de la pierna afectada para me centrarla con el RI y dirigir el haz de rayos horizontal desde el lado externo del paciente."
+    },
+
+    {
+    id: "rodilla-ap",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección AP de rodilla",
+    patologia: "• Fracturas, lesiones o cambios óseos, secundarios a enfermedad articular degenerativa, que afecte el fémur distal, la porción proximal de la tibia y el peroné, la rótula y la articulación de la rodilla.",
+    factores_tecnicos: "• Tamaño del RI: 18 x 24 cm (8 x 10 pulgadas) longitudinal.<br>• Parrilla antidifusora o Bucky, >10 cm (70 ± 5 kVp).<br>• Pantalla intensificadora sobre la mesa radiográfica, <10 cm (65 ± 5 kVp).<br>• Técnica y dosis.",
+    posicion_paciente: "• Obtener la radiografía en posición supina, sin rotación de la pelvis; colocar una almohada debajo de la cabeza; pierna completamente extendida.",
+    posicion_region: "• Alinear y centrar la pierna y la rodilla con el RC y la parte media de la mesa o el RI.<br>• Rotar la pierna hacia adentro de 3 a 5° para una AP verdadera de la rodilla (o hasta que la línea interepicondílea sea paralela al plano del RI).<br>• Si es necesario, colocar bolsas de arena contra el pie o el tobillo para estabilizarlos.",
+    rayo_central: "• Paralelo a la meseta tibial; para el paciente promedio, el RC es perpendicular al RI (véase nota más adelante).<br>• Dirigido a un punto situado a 1,25 cm distales al vértice de la rótula.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar en ambos lados hasta los bordes cutáneos y en los extremos hasta el borde del RI.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/rodilla-ap-pos.png",
+    foto_rx: "img/rodilla-ap-rx.png",
+    nota: "• Protección: Colocar un protector sobre la región gonadal.<br>• Nota: una recomendación sugerida para determinar que el RC esté paralelo a la meseta tibial y lograr un espacio articular abierto, consiste en medir la distancia entre la EIAS y la parte superior de la mesa, a fin de dirigir el ángulo del RC, como sigue:*<br>• <19 cm, de 3 a 5° en dirección caudal (muslos y nalgas delgados).<br>• 19-24 cm, 0° (muslos y nalgas promedio).<br>• >24 cm, de 3 a 5° en dirección cefálica (muslos y nalgas voluminosos)."
+    },
+
+    {
+    id: "rodilla-ap-oblicua-medial",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección AP oblicua con rotación medial (interna) de rodilla",
+    patologia: "• Procesos que comprometen las articulaciones tibioperonea y tibiofemoral poximal (rodilla), y fracturas, lesiones y cambios óseos, secundarios a enfermedad articular degenerativa, sobre todo en las partes anterior y medial o posterior y lateral de la rodilla.",
+    factores_tecnicos: "• Tamaño del RI: 18 x 24 cm (8 x 10 pulgadas) longitudinal.<br>• Parrilla antidifusora o Bucky, >10 cm (70 ± 5 kVp).<br>• Pantalla intensificadora sobre la mesa radiográfica, <10 cm (65 ± 5 kVp).<br>• Técnica y dosis.",
+    posicion_paciente: "• Obtener la radiografía en posición semisupina, con rotación parcial del cuerpo y la pierna en dirección contraria a la región de interés; colocar un soporte debajo de la cadera elevada y una almohada debajo de la cabeza.",
+    posicion_region: "• Alinear y centrar la pierna y la rodilla con el RC y la línea media de la mesa o el RI.<br>• Rotar la pierna hacia adentro 45°. (La línea interepicondílea debe formar un ángulo de 45° con el plano del RI.)<br>• Si es necesario, estabilizar el pie y el tobillo c on bolsas de arena, en esta posición.",
+    rayo_central: "• Ángulo de 0° en un paciente promedio (véase proyección AP de la rodilla).<br>• Dirigido a un punto medio de la rodilla a 1,25 cm distales al vértice de la rótula.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar en ambos lados hasta los bordes cutáneos, con colimación completa en ambos extremos hasta el borde del RI, para incluir la mayor parte del fémur, la tibia y el peroné.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/rodilla-ap-oblicua-medial-pos.png",
+    foto_rx: "img/rodilla-ap-oblicua-medial-rx.png",
+    nota: "• Protección: Colocar un protector sobre la región gonadal.<br>• Nota 1: una rutina común en el servicio de radiología es incluir ambas oblicuas en rotación medial y lateral de la rodilla. La proyección oblicua en rotación interna es la más común, cuando solo se toma una oblicua.<br>• Nota 2: los términos oblicua medial (interna) u oblicua lateral (externa) se refieren a la dirección de la rotación de la superficie anterior (o rotuliana) de la rodilla. Esta aclaración es válida para las descripciones de las proyecciones oblicuas AP y PA."
+    },
+
+    {
+    id: "rodilla-ap-oblicua-lateral",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección AP oblicua con rotación lateral (externa) de rodilla",
+    patologia: "• Procesos que comprometen la artciulación tibiofemoral (rodilla), fracturas, lesiones y cambios óseos secundarios a enfermedad articular degenerativa, sobre todo, en las partes anterior y medial o posterior y medial de la rodilla.",
+    factores_tecnicos: "• Tamaño del RI: 18 x 24 cm (8 x 10 pulgadas), longitudinal.<br>• Parrilla antidifusora o Bucky, >10 cm (70 ± 5 kVp).<br>• Pantalla intensificadora de detalles sobre la mesa radiográfica <10 cm (65 ± 5 kVp).<br>• Técnica y dosis.",
+    posicion_paciente: "• Obtener la radiografía en posición semisupina con rotación parcial del cuerpo y la pierna en dirección contraria a la región de interés; colocar un soporte debajo de la cadera elevada y colocar una almohada debajo de la cabeza.",
+    posicion_region: "• Alinear y centrar la pierna y la rodilla con el RC y la línea media de la mesa o el RI.<br>• Rotar la pierna hacia afuera 45°. (La línea interepicondílea debe formar un ángulo de 45° con el plano del RI.)<br>• Si es necesario, estabilizar el pie y el tobillo con bolsas de arena, en esta posición.",
+    rayo_central: "• Ángulo de 0° en un paciente promedio (véase proyección AP de la rodilla).<br>• Dirigido a un punto medio de la rodilla a 1,25 cm distales al vértice de la rótula.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar en ambos lados hasta los bordes cutáneos, con colimación completa en ambos extremos hasta el borde del RI, para incluir la mayor parte del fémur, la tibia y el peroné.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/rodilla-ap-oblicua-lateral-pos.png",
+    foto_rx: "img/rodilla-ap-oblicua-lateral-rx.png",
+    nota: "• Protección: Colocar un protector sobre la región gonadal.<br>• Nota 1: una rutina común en el servicio de radiología es incluir ambas oblicuas en rotación medial y lateral de la rodilla. La proyección oblicua en rotación interna es la más común, cuando solo se toma una oblicua (véase pág. 232).<br>• Nota 2: los términos oblicua medial (interna) u oblicua lateral (externa) se refieren a la dirección de la rotación de la superficie anterior (o rotuliana) de la rodilla. Esta aclaración es válida para las descripciones de las proyecciones oblicuas AP y PA."
+    },
+
+    {
+    id: "rodilla-lateral-mediolateral",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección lateral - mediolateral de rodilla",
+    patologia: "• Fracturas, lesiones y alteraciones del espacio articular.",
+    factores_tecnicos: "• Tamaño del RI: 18 x 24 cm (8 x 10 pulgadas), longitudinal.<br>• Parrilla antidifusora Bucky, >10 cm (70 ± 5 kVp).<br>• Pantalla intensificadora sobre la mesa radiográfica, <10 cm (65 ± 5 kVp).<br>• Técnica y dosis.",
+    posicion_paciente: "• Obtener la radiografía en decúbito lateral, con el lado afectado hacia abajo; colocar una almohada debajo de la cabeza y un soporte para la rodilla del otro miembro ubicado detrás de la rodilla por me examinar, para evitar la sobrerrotación.",
+    posicion_region: "• Rotar el cuerpo y la pierna hasta que la rodilla esté en una posición lateral verdadera (epicóndilos femorales directamente superpuestos y el plano de la rótula perpendicular al RI).<br>• Flexionar la rodilla de 20 a 30° (véase nota 1, más adelante).<br>• Alinear y centrar la pierna y la rodilla con el RC y la línea media de la mesa o el RI.",
+    rayo_central: "• Ángulo de 5 a 7° en dirección cefálica (véase nota 2 más adelante).<br>• Dirigido a un punto 1,25 cm distales al epicóndilo medial.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar en ambos lados hasta los bordes cutáneos, con colimación completa en ambos extremos hasta el borde del RI, para incluir la mayor parte posible del fémur, la tibia y el peroné.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/rodilla-lateral-mediolateral-pos.png",
+    foto_rx: "img/rodilla-lateral-mediolateral-rx.png",
+    nota: "• Protección: Colocar un protector sobre la región gonadal.<br>• Lateral a través de la mesa: si el paciente no puede ser rotado hacia la posición lateral, utilizar un haz de rayos horizontal con el RI colocado debajo de la rodilla. Colocar un soporte debajo de la rodilla, para evitar cortar tejidos blandos posteriores (fig. 6-109, recuadro).<br>• Nota 1: un mayor grado de flexión tensará los músculos y los tendones, lo que puede ocultar importante información diagnóstica en el espacio articular. La rótula ingresará en el espacio intercondíleo y también, ocultará un posible derrame o un desplazamiento del panículo adiposo. La flexión excesiva también puede separar los fragmentos rotulianos en una fractura de la rótula.<br>• Nota 2: el RC debe tener un ángulo de 7 a 10° en un paciente de baja talla, con pelvis ancha y, solo 5° en un hombre alto, con pelvis estrecha (véase pág. 203)."
+    },
+
+    {
+    id: "rodilla-ap-bilateral-con-soporte-de-peso",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección AP bilateral de rodilla con soporte del peso corporal",
+    patologia: "• Espacios de la articulación tibiofemoral para evaluar una posible degeneración cartilaginosa u otras patologías de la rodilla. Se incluyen ambas rodillas en la misma exposición con fines comparativos.<br>• Esta proyección, por lo general, se obtiene en posición AP, pero puede ser PA si se la solicita.",
+    factores_tecnicos: "• Tamaño del RI: 30 x 35 (11 x 14 pulgadas) o 35 x 43 cm (14 x 17 pulgadas) transversal.<br>• Parrilla antidifusora móvil o fija.<br>• Rango 70 ± 5 kVp.<br>• Técnica y dosis.",
+    posicion_paciente: "• Obtener la radiografía en posición de pie, sobre una plataforma, a fin de que el paciente esté a una altura suficiente para que el tubo de rayos esté horizontal.<br>• Colocar los pies rectos y paralelos, hacia adelante con el peso corporal distribuido uniformemente entre ambos, el paciente debe sostener de manijas para mantener la estabilidad.",
+    posicion_region: "• Alinear y centrar ambas piernas y rodillas con el RC y la línea media de la mesa y el RI; altura del RI ajustada con el RC.",
+    rayo_central: "• Perpendicular al RI (pacientes promedio) o de 5 a 10° en dirección caudal (pacientes delgados), dirigido a un punto medio entre ambas articulaciones de la rodilla, a una distancia de 1,25 cm por debajo del vértice de la rótula.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar hasta la región de la articulación de la rodilla a ambos lados, incluir una parte del fémur distal y la tibia proximal con fines de alineación.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/rodilla-ap-bilateral-con-soporte-de-peso-pos.png",
+    foto_rx: "img/rodilla-ap-bilateral-con-soporte-de-peso-rx.png",
+    nota: "• Protección: Proteger la región gonadal.<br>• PA alternativa: si el médico lo solicita, puede obtenerse una radiografía PA alternativa con el paciente mirando hacia la mesa o RI, las rodillas flexionadas aproximadamente 20°, los pies rectos hacia adelante y los muslos apoyados contra la mesa o el RI. Para la proyección PA, dirigir el RC 10° en dirección caudal (paralelo a la meseta tibial), hacia el nivel de las articulaciones de la rodilla.<br>• Nota: el RC debe ser paralelo a la meseta tibial para revelar mejor los espacios \"abiertos\" de la articulación de la rodilla. Para un ángulo correcto del RC, véase Proyección AP de la rodilla en la página 231."
+    },
+
+    {
+    id: "rodilla-pa-axial-escotadura-intercondilea",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección PA axial para la escotadura intercondílea (Método de Camp-Coventry y Método de Holmblad)",
+    patologia: "• Escotadura intercondílea, cóndilos femorales, mesetas tibiales y la espina tibial. Puede revelar signos de procesos patológicos óseos o cartilaginosos, defectos osteocondrales o un estrechamiento del espacio articular.",
+    factores_tecnicos: "• Tamaño del RI: 18 x 24 cm (8 x 10 pulgadas), longitudinal.<br>• Parrilla antidifusora móvil o fija (o pantalla intensificadora, <10 cm).<br>• Rango: 75 ± 5 kVp (aumentar 4-6 kVp para la proyección PA de la rodilla).<br>• Técnica y dosis (con parrilla Bucky 12:1).",
+    posicion_paciente: "• 1. Obtener la radiografía en pronación; una almohada debajo de la cabeza.<br>• 2. Paciente arrodillado sobre la mesa radiográfica.",
+    posicion_region: "• 1. En pronación:<br>• Flexionar la rodilla de 40 a 50°; colocar un soporte debajo del tobillo.<br>• Centrar el chasis en la articulación de la rodilla teniendo en cuenta la proyección del ángulo del RC.<br>• 2. Arrodillado:<br>• Con el paciente \"en cuatro patas\", colocar el chasis debajo de la rodilla afectada y centrar el RI en el hueco poplíteo.<br>• Solicitar al paciente que soporte el peso corporal, sobre todo, con la rodilla no afectada.<br>• Colocar un soporte blando debajo de la pierna y el tobillo del miembro afectado, para reducir la presión sobre la rodilla lesionada.<br>• Solicitar al paciente que se incline lentamente hacia adelante de 20 a 30° y que mantenga esa posición. (Esta maniobra determina una flexión de la rodilla de 60 a 70°.)",
+    rayo_central: "• 1. En pronación: perpendicular a la pierna (de 40 a 50° en dirección caudal para acompañar el ángulo de flexión).<br>• 2. Arrodillado: perpendicular al RI y la pierna.<br>• Dirigir el RC hacia la mitad del hueco poplíteo.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar en los cuatro lados hasta el área de la articulación de la rodilla.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/rodilla-pa-axial-escotadura-intercondilea-pos.png",
+    foto_rx: "img/rodilla-pa-axial-escotadura-intercondilea-rx.png",
+    nota: "• Protección: Colocar un protector de plomo sobre el área gonadal. Fijar el protector alrededor de la cintura en posición de rodillas y extender la protección hasta la mitad del muslo.<br>• Nota: se describen dos métodos para mostrar estas estructuras. La posición prona (fig. 6-114) es más fácil para el paciente. El método de Holmblad con el paciente arrodillado es otra opción, con una proyección ligeramente distinta de estas estructuras y un mayor grado de flexión de la rodilla."
+    },
+
+   {
+    id: "rodilla-axial-ap-escotadura-intercondilea",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección axial AP para la escotadura intercondílea de rodilla",
+    patologia: "• Escotadura intercondílea cóndilos femorales, mesetas tibiales y la espina tibial, para buscar signos de procesos patológicos óseos o cartilaginosos, defectos osteocondrales o estrechamiento del espacio articular.",
+    factores_tecnicos: "• Tamaño del RI: 18 x 24 cm (8 x 10 pulgadas), transversal.<br>• Chasis curvo de preferencia para reducir la distancia entre la región por explorar y el RI.<br>• Pantalla intensificadora de detalle, foco pequeño.<br>• (Rango 65 ± 5 kVp) (no se requiere parrilla intensificadora debido al espacio de aire).",
+    posicion_paciente: "• Obtener la radiografía en posición supina. Colocar un soporte debajo de la rodilla parcialmente flexionada, con toda la pierna en posición anatómica, sin rotación.",
+    posicion_region: "• Flexionar la rodilla de 40 a 45° y colocar un soporte debajo del chasis, según necesidad, para que el chasis se apoye firmemente contra la parte posterior del muslo y la pierna, como en la figura 6-119.<br>• Si se dispone de un chasis curvo, colocarlo debajo de la rodilla como en la figura 6-120.<br>• Ajustar la posición del chasis para me centrar el RI en la parte media de la articulación de la rodilla.",
+    rayo_central: "• Perpendicular a la pierna (de 40 a 45° en dirección cefálica).<br>• Dirigido a un punto situado 1,25 con distal vértice de la rótula.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar en los cuatro lados hasta el área de la articulación de la rodilla.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/rodilla-axial-ap-escotadura-intercondilea-pos.png",
+    foto_rx: "img/rodilla-axial-ap-escotadura-intercondilea-rx.png",
+    nota: "• Protección: Colocar un protector de plomo sobre el área pelviana hasta la mitad del muslo.<br>• Nota: es una inversión de la proyección axial PA para los pacientes que no pueden adoptar la posición prona. Sin embargo, no es una proyección preferida, debido a la distorsión derivada del ángulo del RC y el aumento de la distancia entre la región por explorar y el RI, salvo que se disponga de un chasis curvo. Además, esta proyección se asocia con una mayor exposición de la región gonadal."
+    },
+
+    {
+    id: "rotula-pa",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección PA de rótula",
+    patologia: "• Se evalúan las fracturas rotulianas antes de flexionar la rodilla para obtener otras proyecciones.",
+    factores_tecnicos: "• Tamaño del RI: 18 x 24 cm (8 x 10 pulgadas), longitudinal.<br>• Parrilla antidifusora móvil o fija (o pantalla intensificadora, <10 cm).<br>• Rango 75 ± 5 kVp (aumentar de 4 a 6 kVp con respecto a la técnica para la proyección PA de la rodilla para observar mejor la rótula).<br>• Técnica y dosis.",
+    posicion_paciente: "• Obtener la radiografía en posición prona y con las piernas extendidas; colocar una almohada debajo de la cabeza y un soporte debajo del tobillo y la pierna, y otro más pequeño debajo del muslo por encima de la rodilla, para evitar la presión directa sobre la rótula.",
+    posicion_region: "• Alinear y centrar el eje longitudinal de la pierna y la rodilla con la línea media de la mesa o el RI.<br>• PA verdadera: alinear la línea interepicondílea paralela al plano del RI. (En general, es necesario rotar 5° hacia adentro la parte anterior de la rodilla.)",
+    rayo_central: "• Perpendicular al RI.<br>• Dirigido al área media de la rótula (en general, en el hueco poplíteo).<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar exactamente en los cuatro lados para incluir solo el área de la rótula y la articulación de la rodilla.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/rotula-pa-pos.png",
+    foto_rx: "img/rotula-pa-rx.png",
+    nota: "• Protección: Colocar protección sobre el área gonadal.<br>• Nota 1: si hay una posible fractura de la rótula, se recomienda especialmente no flexionar la rodilla y colocar un soporte debajo del muslo (fémur) para evitar la presión directa sobre el área rotuliana.<br>• Nota 2: Esta proyección también puede obtenerse como una AP con el paciente colocado para una proyección AP de la rodilla, si no puede adoptar una posición prona."
+    },
+
+    {
+    id: "rotula-lateral",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección lateral de rótula",
+    patologia: "• Junto con la proyección PA, es útil para evaluar fracturas rotulianas y anomalías de las articulaciones femororrotuliana y tibiofemoral.",
+    factores_tecnicos: "• Tamaño del RI: 18 x 24 cm (8 x 10 pulgadas), longitudinal.<br>• Parrilla antidifusora móvil o fija, rango de 70 ± 6 kVp o, en pacientes más pequeños (<10 cm); pantalla en la mesa, rango 60 ± 5 kVp (reducir de 4 a 6 kVp con respecto a la proyección lateral de la rodilla para evitar la sobreexposición de la rótula).<br>• Técnica y dosis.",
+    posicion_paciente: "• Obtener la radiografía en decúbito lateral, con el lado afectado hacia abajo; colocar una almohada debajo de la cabeza y un soporte para la rodilla contralateral, ubicada detrás de la rodilla afectada.",
+    posicion_region: "• Ajustar la rotación del cuerpo y la pierna hasta que la rodilla esté en una posición lateral verdadera (superposición directa de los epicóndilos femorales y plano de la rótula perpendicular al plano del RI).<br>• Flexionar la rodilla solo 5 o 10°. (Mayor flexión puede separar fragmentos óseos fracturados.)<br>• Alinear y centrar el eje longitudinal de la rótula con el RC y la línea central de la mesa o el RI.",
+    rayo_central: "• Perpendicular al RI.<br>• Dirigir a la mitad de la articulación femororrotuliana.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar exactamente en los cuatro lados para incluir solo el área de la rótula y la articulación de la rodilla.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/rotula-lateral-pos.png",
+    foto_rx: "img/rotula-lateral-rx.png",
+    nota: "• Protección: Colocar protección sobre el área gonadal.<br>• Nota: también puede obtenerse como una proyección lateral a través de la mesa, sin flexión de rodilla en un paciente con traumatismo severo, como se describe en el capítulo 19, sobre radiología móvil y de trauma."
+    },
+
+    {
+    id: "rotula-tangencial-método-bilateral-de-merchant",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección tangencial (axial o en línea horizontal) de rótula (Método bilateral de Merchant)",
+    patologia: "• Subluxación de la rótula y otras patologías de la rótula y la articulación femororrotuliana.",
+    factores_tecnicos: "• Tamaño del RI: 24 x 30 cm (10 x 12 pulgadas), transversal.<br>• Pantalla intensificadora de detalles, foco pequeño (no se requiere parrilla antidifusora debido al espacio de aire secundario al aumento de la DOR).<br>• Rango 65 ± 5 kVp.<br>• Debe utilizarse algún tipo de soporte para la pierna y el portachasis.<br>• Técnica y dosis.",
+    posicion_paciente: "• Obtener la radiografía en posición supina, con las rodillas flexionadas 40° en el extremo de la mesa, y sobre un soporte. Es importante que el paciente se encuentre cómodo para que los músculos cuadriceps femorales estén totalmente relajados (véase nota más adelante).",
+    posicion_region: "• Colocar un soporte debajo de las rodillas para elevar la región femoral distal y colocarla paralela a la superficie de la mesa.<br>• Acercar las rodillas y los pies, y fijar piernas debajo de las rodillas para prevenir la rotación y permitir que el paciente se relaje completamente.<br>• Colocar el chasis de canto sobre las piernas, aproximadamente a 30 cm debajo de las rodillas y perpendicular al haz de rayos.",
+    rayo_central: "• En dirección caudal, a 30° de la horizontal (RC 30° con respecto a los fémures). Ajustar el ángulo del RC, si es necesario, para una proyección tangencial verdadera de los espacios articulares femororrotulianos.<br>• Dirigido a un punto medio entre las rótulas.<br>• DFR de 120 a 180 cm (el aumento de la DFR reduce la magnificación).",
+    colimacion: "• Colimar exactamente muy cercana en los cuatro lados hasta la rótula.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/rotula-tangencial-metodo-bilateral-de-merchant-pos.png",
+    foto_rx: "img/rotula-tangencial-metodo-bilateral-de-merchant-rx.png",
+    nota: "• Protección: Colocar un protector de plomo sobre toda la región pelviana.<br>• Nota: la comodidad y la relajación completa del paciente son factores esenciales. Los cuadriceps femorales deben estar relajados para prevenir la subluxación de las rótulas secundaria a la tracción hacia la escotadura intercondílea, lo que puede generar una interpretación errónea de la radiografía."
+    },
+
+    {
+    id: "rotula-tangencial-inferosuperior-hughston-settegast",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyecciones tangenciales de rótula (Proyección inferosuperior, Método de Hughston y Método de Settegast)",
+    patologia: "• Se describen otros tres métodos para obtener proyecciones tangenciales de las rótulas y las articulaciones femororrotulianas, en un orden de preferencia sugerido. Se consignan las ventajas y las desventajas de cada uno de ellos. En general, se incluyen ambos lados con fines comparativos.",
+    factores_tecnicos: "• Tamaño del RI: 24 x 30 cm (10 x 12 pulgadas) o 18 x 24 cm (8 x 10 pulgadas) transversal.<br>• Pantalla intensificadora de detalles, foco pequeño.<br>• Rango: 65 ± 5 kVp.",
+    posicion_paciente: "• 1. Proyección inferosuperior: Obtener la radiografía en posición supina y las piernas juntas con un soporte de tamaño adecuado debajo de las rodillas para lograr una flexión de 40 a 45° (piernas relajadas).<br>• 2. Método de Hughston: Obtener la radiografía en posición prona, con el chasis debajo de la rodilla; flexionar lentamente la rodilla 45° (véase nota 3 más adelante); solicitar al paciente que sostenga el pie con una cinta de gasa, o apoyar el pie contra el colimador u otro soporte; colocar una protección entre el pie y el colimador, puede estar caliente.<br>• 3. Método de Settegast: Obtener la radiografía en posición prona con el chasis debajo de la rodilla; flexionar lentamente la rodilla hasta un mínimo de 90°; solicitar al paciente que mantenga la posición ejerciendo tracción con una cinta de gasa.",
+    posicion_region: "• 1. Proyección inferosuperior:<br>• Verificar que las piernas no estén rotadas.<br>• Colocar el chasis de canto, apoyado en la parte media de los muslos, e inclinado para que esté perpendicular al RC. Utilizar bolsas de arena o una cinta de tela, como se muestra, u otros métodos a fin de estabilizar el chasis en esta posición. No se recomienda solicitar al paciente que se siente para me sostener el chasis, pues la cabeza y el cuello del paciente pueden quedar en la trayectoria del haz de rayos.<br>• 2. Método de Hughston:<br>• (Véase posición del paciente).<br>• 3. Método de Settegast:<br>• (Véase posición del paciente).",
+    rayo_central: "• 1. Proyección inferosuperior: En dirección inferosuperior, en un ángulo de 10 a 15° con las piernas, para que quede tangencial a la articulación femororrotuliana. Palpar los bordes de la rótula para me establecer el ángulo específico del RC necesario para me atravesar el espacio articular infrarrotuliano. DFR de 100 a 120 cm.<br>• 2. Método de Hughston: Alinear aproximadamente a 15 a 20° con el eje longitudinal de la pierna (tangencial a la articulación femororrotuliana). Dirigido a la parte media de la articulación femororrotuliana. DFR mínima 100 cm.<br>• 3. Método de Settegast: Tangencial al espacio articular femororrotuliano (de 15 a 20° con la pierna). DFR mínima 100 cm.",
+    colimacion: "• Colimar en los cuatro lados hasta el área de la articulación femororrotuliana.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/rotula-tangencial-inferosuperior-hughston-settegast-pos.png",
+    foto_rx: "img/rotula-tangencial-inferosuperior-hughston-settegast-rx.png",
+    nota: "• Protección: Colocar protección gonadal o sobre el área pelviana.<br>• Nota 1 (Inferosuperior): la principal ventaja de este método es que no requiere un equipo especial y la posición es relativamente cómoda para el paciente. Por lo tanto, se puede lograr una relajación total con las rodillas flexionadas en un ángulo de 40 a 45°, si se coloca un soporte adecuado debajo de las rodillas. La única desventaja es sostener el chasis en la posición correcta, si el paciente no puede cooperar.<br>• Nota 2 (Hughston): esta posición es relativamente cómoda para el paciente y permite lograr la relajación del cuadriceps. La principal desventaja es la distorsión de la imagen causada por la alineación entre la película, la región por explorar y el haz de rayos, y la dificultad de reducir el ángulo de flexión de la rodilla debido a los equipos modernos y los colimadores grandes.<br>• Nota 3 (Hughston): algunos autores sugieren una flexión de solo 20° para evitar que la rótula sea traccionada hacia el canal femororrotuliano, lo que puede impedir que se detecten alteraciones sutiles de la alineación.<br>• Advertencia (Settegast): esta flexión aguda de la rodilla no debe intentarse, hasta que se haya descartado una fractura rotuliana mediante otras proyecciones.<br>• Nota 4 (Settegast): la principal desventaja de este método es que la flexión aguda de la rodilla tensa el cuadriceps y tracciona la rótula hacia el surco intercondíleo, lo que reduce el valor diagnóstico de esta proyección."
+    },
+
+    {
+    id: "femur-ap-medio-y-distal",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección AP de la región media y distal del fémur",
+    patologia: "• Tercios medio y distal del fémur, incluida la articulación de la rodilla, para detectar y evaluar fracturas y lesiones óseas.",
+    factores_tecnicos: "• Tamaño del RI: 35 x 43 cm (14 x 17 pulgadas) longitudinal.<br>• Parrilla antidifusora móvil o fija.<br>• Rango: 75 ± 5 kVp.<br>• Debido al efecto talón del ánodo, colocar la cadera o el extremo cefálico del paciente en el extremo catódico del haz de rayos.<br>• Técnica y dosis.",
+    posicion_paciente: "• Obtener la radiografía en posición supina, con el fémur centrado en la línea media de la mesa; colocar una almohada debajo de la cabeza. (Esta proyección también puede obtenerse sobre una camilla con una parrilla portátil debajo del fémur.)",
+    posicion_region: "• Alinear el fémur con el RC y la línea media de la mesa o el RI.<br>• Rotar la pierna hacia adentro, aproximadamente 5° para una proyección AP verdadera (como para una AP de rodilla). (Para el tercio proximal del fémur, se requiere una rotación interna de la pierna de 10 a 15°, como para una AP de cadera.)<br>• Asegurarse de incluir la rodilla en el RI, considerando la divergencia del haz de rayos. (El borde inferior del chasis debe estar ubicado unos 5 cm debajo de la articulación de la rodilla.)",
+    rayo_central: "• Perpendicular al fémur y el RI.<br>• Dirigido a la parte media del RI.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar exactamente en ambos lados hasta el fémur y colimación en los extremos hasta el borde de la película.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/femur-ap-medio-y-distal-pos.png",
+    foto_rx: "img/femur-ap-medio-y-distal-rx.png",
+    nota: "• Protección: Colocar un protector de plomo sobre la región pelviana para asegurar una protección gonadal correcta debido a la proximidad del haz de rayos primario.<br>• Nota 1: si el sitio de interés está en el tercio proximal del fémur, se recomienda una proyección básica de cadera unilateral o una radiografía de pelvis, como se describe en el capítulo 7.<br>• Proyección básica para incluir ambas articulaciones: las rutinas de los servicios de radiología incluyen ambos fémures en todos los exámenes iniciales. En un adulto grande, debe utilizarse un segundo RI más pequeño para una proyección AP de la rodilla o la cadera, asegurándose de incluir ambas articulaciones. Si se incluye la cadera, la pierna debe ser rotada hacia adentro de 10 a 15° para colocar el cuello femoral de perfil."
+    },
+
+    {
+    id: "femur-lateral-mediolateral-lateromedial-medio-y-distal",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección lateral - mediolateral (o lateromedial) de la región media y distal del fémur",
+    patologia: "• Tercios medio y distal del fémur, incluida la articulación de la rodilla, para detectar y evaluar fracturas y lesiones óseas.",
+    factores_tecnicos: "• Tamaño del RI: 35 x 43 cm (14 x 17 pulgadas) longitudinal.<br>• Parrilla antidifusora móvil o fija.<br>• Rango 75 ± 5 kVp.<br>• Debido al efecto talón del ánodo, colocar la cadera del paciente en el extremo catódico del haz de rayos.<br>• Técnica y dosis: (con parrilla Bucky 12:1).",
+    posicion_paciente: "• Obtener la radiografía en decúbito lateral, o supina en caso de traumatismo.",
+    posicion_region: "• Decúbito lateral (fig. 6-139):<br>• Advertencia: no intentar esta posición, si el paciente padece traumatismos severos.<br>• Flexionar la rodilla aproximadamente 45° con el paciente sobre el lado afectado y alinear el fémur con la línea media de la mesa o el RI.<br>• Colocar la pierna no afectada detrás de la pierna lesionada para evitar la sobrerrotación.<br>• Ajustar el RI para incluir la articulación de la rodilla (el borde inferior debe estar ubicado aproximadamente 5 cm debajo de la articulación de la rodilla). En un adulto, generalmente, será necesario utilizar otro RI para incluir el tercio proximal del fémur y la cadera (véase pág. 244).<br>• Proyección lateromedial para traumatismo (fig. 6-140):<br>• Colocar un soporte debajo de la pierna afectada y la rodilla, y mantener el pie y el tobillo en una posición AP verdadera.<br>• Colocar el chasis de canto contra la parte interna del muslo para incluir la rodilla, con el haz de rayos en dirección horizontal desde la parte lateral.",
+    rayo_central: "• Perpendicular al fémur y al RI, dirigido a la parte media del RI.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar exactamente en ambos lados hasta el fémur y colimación en los extremos hasta el borde del RI.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/femur-lateral-mediolateral-lateromedial-medio-y-distal-pos.png",
+    foto_rx: "img/femur-lateral-mediolateral-lateromedial-medio-y-distal-rx.png",
+    nota: "• Protección: Colocar un protector de plomo sobre la región pelviana para proteger las gónadas.<br>• Nota: ante un posible traumatismo, si el sitio de interés está en el tercio proximal del fémur, se recomienda una proyección básica de cadera unilateral, como se describe en el capítulo 7. Si no hay traumatismo, obtener una proyección lateral de los tercios medio y proximal del fémur, véase pág. 244."
+    },
+
+    {
+    id: "femur-lateral-mediolateral-medio-y-proximal",
+    capitulo: "Extremidad inferior",
+    nombre: "Proyección lateral - mediolateral de la región media y proximal del fémur",
+    patologia: "• Tercios medio y proximal del fémur, incluida la porción lateral de la cadera, para me detectar y evaluar fracturas y lesiones óseas.",
+    factores_tecnicos: "• Tamaño del RI: 35 x 43 cm (14 x 17 pulgadas) longitudinal.<br>• Parrilla antidifusora móvil o fija.<br>• Rango 75 ± 5 kVp.<br>• Para aprovechar al máximo el efecto talón del ánodo, colocar la cadera del paciente en el extremo catódico del haz de rayos.<br>• Técnica y dosis.",
+    posicion_paciente: "• Obtener la radiografía en decúbito lateral con el lado afectado hacia abajo; colocar una almohada debajo de la cabeza.",
+    posicion_region: "• Flexionar la rodilla afectada aproximadamente 45° y alinear el fémur con la línea media de la mesa. (Recordar los tercios proximal y medio del fémur están en un plano más anterior del muslo.)<br>• Extender y apoyar la pierna no afectada detrás de la pierna lesionada, y solicitar al paciente que rote hacia atrás unos 15° para evitar la superposición entre el extremo proximal del fémur y la cadera.<br>• Ajustar el RI para incluir la articulación de la cadera considerando la divergencia del haz de rayos. (Palpar la EIAS y colocar el borde superior del RI en este punto de reparo.)",
+    rayo_central: "• Perpendicular al fémur y al RI, dirigido a la parte media del RI.<br>• DFR mínima 100 cm.",
+    colimacion: "• Colimar exactamente en ambos lados hasta el fémur y colimación en los extremos hasta el borde del RI.",
+    respiracion: "• Contener la respiración durante la exposición.",
+    foto_posicion: "img/femur-lateral-mediolateral-medio-y-proximal-pos.png",
+    foto_rx: "img/femur-lateral-mediolateral-medio-y-proximal-rx.png",
+    nota: "• Advertencia: no intentar esta posición en un paciente con posible fractura de la cadera o el extremo proximal del fémur. Remitirse a la proyección básica de cadera unilateral para traumatismo en el capítulo 7.<br>• Protección: En esta proyección, por lo general, no es posible utilizar protección gonadal sin enmascarar detalles anatómicos esenciales.<br>• Proyección básica alternativa para incluir ambas articulaciones: las rutinas de los servicios de radiología incluyen ambos fémures en todos los exámenes iniciales. En un adulto grande debe utilizarse un segundo RI más pequeño (24 x 30 cm o 10 x 12 pulgadas) para la proyección de la cadera o la rodilla."
+    },
+
     /* PLANTILLA VACÍA PARA COPIAR Y PEGAR:
     {
         id: "",
